@@ -105,3 +105,12 @@ public/uploads/reports/*
 /.vapor
 .vapor/*
 composer.lock
+
+# Testing modules
+/app/Console/Commands/Test/
+/app/Events/TestEvent.php
+/app/Http/Controllers/TestController.php
+/app/Http/Controllers/Api/TestController.php
+/app/Listeners/TestEventListener.php
+/app/Mail/TestMail.php
+/storage/framework/testing/
